@@ -1,13 +1,13 @@
 # 🏋️‍♀️ Fitness App
 
-A full-featured fitness exercise application built with React.js, Material UI, and RapidAPI. This app allows users to search for exercises, filter by body parts, view detailed information about each exercise, and watch instructional YouTube videos—all in a modern, responsive interface.
+A full-featured fitness exercise application built with React.js, Material UI, and RapidAPI. This app allows users to search for exercises, filter by body parts, view detailed information about each exercise and watch instructional YouTube videos all in a modern, responsive interface.
 ---
 
 ## 🚀 Features
 
-- 🔎 **Search Exercises**: Users can search exercises by name, target muscle, body part, or equipment.
+- 🔎 **Search Exercises**: Users can search exercises by name, target muscle, body part or equipment.
 - 🏋️ **Filter by Body Part**: Horizontal scrollbar to filter exercises by body part.
-- 📖 **Exercise Detail View**: Get instructions, body parts involved, and equipment used.
+- 📖 **Exercise Detail View**: Get instructions, body parts involved and equipment used.
 - 🎬 **Watch Videos**: Embedded YouTube demo videos fetched via API.
 - 📱 **Responsive Design**: Clean and responsive UI optimized for all screen sizes.
 - ⚡ **Fast and Lightweight**: Optimized performance with React best practices.
@@ -26,27 +26,64 @@ A full-featured fitness exercise application built with React.js, Material UI, a
 
 ---
 ## 📂 Folder Structure
+fitness-app/
+│
+├── public/
+│ └── index.html
+│
+├── src/
+│ ├── assets/
+│ │ ├── icons/
+│ │ └── images/
+│ ├── components/
+│ │ ├── BodyPart.js
+│ │ ├── ExerciseCard.js
+│ │ ├── Exercises.js
+│ │ ├── SearchExercises.js
+│ │ └── ...
+│ ├── pages/
+│ │ ├── Home.js
+│ │ └── ExerciseDetail.js
+│ ├── utils/
+│ │ └── fetchData.js
+│ ├── App.js
+| ├── App.css
+│ └── index.js
+│
+└── .env
 
+---
 
+## 🧪 Getting Started
 
+### 1. Clone the repo
 
+```bash
+git clone https://github.com/vedanti06/fitness_application.git
+cd fitness_application
 
+**### 2. Install dependencies**
 
+```bash
+npm install
 
+**###3. Add your API key**
 
+```bash
+Create a .env file in the root directory:
+REACT_APP_RAPID_API_KEY=your_rapidapi_key_here
 
+🔑 Sign up at RapidAPI to get your free API key.
 
+**###4. Run the app**
 
+```bash
+npm start
+Open http://localhost:3000 to view the app in your browser.
 
-
-
-
-
-
-
-
-
-
+📦 APIs Used
+ExerciseDB API – for exercise data
+YouTube Search & Download API – for demo videos
 
 
 # Getting Started with Create React App
