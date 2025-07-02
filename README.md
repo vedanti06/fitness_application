@@ -25,35 +25,6 @@ A full-featured fitness exercise application built with React.js, Material UI, a
 | CSS        | Component-level styling         |
 
 ---
-## 📂 Folder Structure
-fitness-app/
-│
-├── public/
-│ └── index.html
-│
-├── src/
-│ ├── assets/
-│ │ ├── icons/
-│ │ └── images/
-│ ├── components/
-│ │ ├── BodyPart.js
-│ │ ├── ExerciseCard.js
-│ │ ├── Exercises.js
-│ │ ├── SearchExercises.js
-│ │ └── ...
-│ ├── pages/
-│ │ ├── Home.js
-│ │ └── ExerciseDetail.js
-│ ├── utils/
-│ │ └── fetchData.js
-│ ├── App.js
-| ├── App.css
-│ └── index.js
-│
-└── .env
-
----
-
 ## 🧪 Getting Started
 
 ### 1. Clone the repo
@@ -67,7 +38,7 @@ cd fitness_application
 ```bash
 npm install
 
-**###3. Add your API key**
+**### 3. Add your API key**
 
 ```bash
 Create a .env file in the root directory:
@@ -75,7 +46,7 @@ REACT_APP_RAPID_API_KEY=your_rapidapi_key_here
 
 🔑 Sign up at RapidAPI to get your free API key.
 
-**###4. Run the app**
+**### 4. Run the app**
 
 ```bash
 npm start
