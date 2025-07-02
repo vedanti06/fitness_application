@@ -24,38 +24,6 @@ A full-featured fitness exercise application built with React.js, Material UI, a
 | React Router | Client-side routing           |
 | CSS        | Component-level styling         |
 
----
-## 🧪 Getting Started
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/vedanti06/fitness_application.git
-cd fitness_application
-
-**### 2. Install dependencies**
-
-```bash
-npm install
-
-**### 3. Add your API key**
-
-```bash
-Create a .env file in the root directory:
-REACT_APP_RAPID_API_KEY=your_rapidapi_key_here
-
-🔑 Sign up at RapidAPI to get your free API key.
-
-**### 4. Run the app**
-
-```bash
-npm start
-Open http://localhost:3000 to view the app in your browser.
-
-📦 APIs Used
-ExerciseDB API – for exercise data
-YouTube Search & Download API – for demo videos
-
 
 # Getting Started with Create React App
 
