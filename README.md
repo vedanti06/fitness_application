@@ -1,3 +1,54 @@
+# 🏋️‍♀️ Fitness App
+
+A full-featured fitness exercise application built with React.js, Material UI, and RapidAPI. This app allows users to search for exercises, filter by body parts, view detailed information about each exercise, and watch instructional YouTube videos—all in a modern, responsive interface.
+---
+
+## 🚀 Features
+
+- 🔎 **Search Exercises**: Users can search exercises by name, target muscle, body part, or equipment.
+- 🏋️ **Filter by Body Part**: Horizontal scrollbar to filter exercises by body part.
+- 📖 **Exercise Detail View**: Get instructions, body parts involved, and equipment used.
+- 🎬 **Watch Videos**: Embedded YouTube demo videos fetched via API.
+- 📱 **Responsive Design**: Clean and responsive UI optimized for all screen sizes.
+- ⚡ **Fast and Lightweight**: Optimized performance with React best practices.
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech       | Usage                          |
+|------------|--------------------------------|
+| React.js   | Frontend framework             |
+| Material UI| UI components and theming      |
+| RapidAPI   | Fetching Exercise & YouTube data |
+| React Router | Client-side routing           |
+| CSS        | Component-level styling         |
+
+---
+## 📂 Folder Structure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
